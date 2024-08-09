@@ -37,9 +37,9 @@ function Header() {
                     </div>
                     <div className=" flex h-16 items-center gap-11 mr-4">
                         {
-                          navItems.map((ele)=>(
-                            <a key={ele.label} href={ele.href} className={`${ele.class==="active"?"border-b-[3px] border-b-[#00FFFF] text-[#00FFFF]":""} hover:text-[#00FFFF] hover:border-b-[3px] hover:border-b-[#00FFFF] active:border-b-[3px] active:border-b-[#00FFFF] text-white`}>{ele.label}</a>
-                          ))
+                            navItems.map((ele)=>(
+                                <a key={ele.label} href={ele.href} className={`${ele.class==="active"?"border-b-[3px] border-b-[#00FFFF] text-[#00ffff]":" text-white"} hover:text-[#00FFFF] hover:border-b-[3px] hover:border-b-[#00FFFF] active:border-b-[3px] active:border-b-[#00FFFF]`}>{ele.label}</a>
+                            ))
                         }
                     </div>
                 </nav>
