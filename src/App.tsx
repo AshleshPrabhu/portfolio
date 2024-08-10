@@ -2,19 +2,19 @@ import Header from "./components/header/Header"
 import Home from "./components/home/Home"
 import Line from "./Line"
 import About from "./components/about/About"
+import Skills from "./components/skills/Skills"
 function App() {
 
   return (
     <div className="bg-[#080808] h-screen">
       <Header/> 
-        <div className="w-full h-16">
-            a
-        </div>
+      <div className="w-full h-16"/>
       <Home/>
       <Line/>
       <About/>
       <Line/>
-
+      <Skills/>
+      <Line/>
     </div>
   )
 }
