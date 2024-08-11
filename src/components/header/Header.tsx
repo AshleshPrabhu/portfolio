@@ -1,6 +1,6 @@
 import Logo from "../logo/Logo"
 function Header() {
-  const navItems=[
+    const navItems=[
     {
         label:"Home",
         href:"#home",
@@ -26,7 +26,7 @@ function Header() {
         href:"#contact",
         class:""
     },
-  ]
+]
     return (
         // <div className="h-screen w-full">
             <header className="bg-[rgba(0,0,0,0.3)] h-16 fixed w-full backdrop-blur-[10px] z-[5]">
@@ -67,7 +67,7 @@ function Header() {
 //       </section>
 //     );
 //   };
-  
+
 //   const About = () => {
 //     return (
 //       <section id="about" style={{ height: '200px', padding: '50px', background: '#e0e0e0' }}>
@@ -95,7 +95,7 @@ function Header() {
 //       </section>
 //     );
 //   };
-  
+
 //   const Contact = () => {
 //     return (
 //       <section id="contact" style={{ height: '100vh', padding: '50px', background: '#d0d0d0' }}>
