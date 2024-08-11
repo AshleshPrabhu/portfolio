@@ -3,6 +3,7 @@ import Home from "./components/home/Home"
 import Line from "./Line"
 import About from "./components/about/About"
 import Skills from "./components/skills/Skills"
+import Projects from "./components/projects/Projects"
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
       <Line/>
       <Skills/>
       <Line/>
+      <Projects/>
     </div>
   )
 }

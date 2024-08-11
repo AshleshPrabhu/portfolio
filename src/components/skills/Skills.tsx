@@ -6,7 +6,7 @@ function Skills() {
             <h1 className="text-4xl text-white font-bold">Skills</h1>
         </div>
         <div className="w-full h-[70%] flex items-center justify-center ">
-            <div className="w-[70%] h-[90%] grid shadow-[0_0_25px_white] rounded-3xl text-white grid-cols-7 gap-1">
+            <div className="w-[70%] h-[90%] grid shadow-[0_0_25px_cyan] rounded-3xl text-white grid-cols-7 gap-1">
                 <div className="cursor-pointer w-[95px] h-full flex items-center justify-center">
                     <img className="hover:scale-[1.1] transition duration-[500ms]" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html" />
                 </div>

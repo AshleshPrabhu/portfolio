@@ -5,8 +5,8 @@ function About() {
         <div className="w-full h-[10%] flex items-center justify-center">
             <h1 className="text-4xl text-white font-bold">About <span className="text-[#00ffff]">Me</span></h1>
         </div>
-        <div className="w-full h-[90%] flex items-center justify-center">
-            <div className="bg-gray-300 w-[90%] h-[90%] rounded-[30px] flex">
+        <div className="w-full h-[90%] flex items-center justify-center ">
+            <div className="bg-gray-300 w-[90%] h-[90%] rounded-[30px] flex shadow-[0_0_25px_white]">
                 <div className="w-[25%] h-full flex items-center justify-center">
                     <img src={image} alt="" className="w-36 h-36"/>
                 </div>
