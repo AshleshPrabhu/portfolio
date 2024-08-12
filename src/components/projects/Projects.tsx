@@ -24,7 +24,7 @@ function Projects() {
                 Live Link
               </div>
               <div>
-                <img src={github} alt="" className="w-8" />
+                <img src={github} alt="" className="w-8 bg-black" />
               </div>
             </div>
           </div>
