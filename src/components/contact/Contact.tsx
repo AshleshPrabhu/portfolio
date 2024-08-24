@@ -21,7 +21,6 @@ function Contact() {
                 <i className='bx bx-lg bxl-gmail text-white cursor-pointer'/>
                 <a target="_blank" href="https://www.linkedin.com/in/ashlesh-prabhu-bb457b312/"><i className='bx bx-lg bxl-linkedin text-white cursor-pointer'/></a>
                 <a target="_blank" href="https://github.com/AshleshPrabhu"><i className='bx bx-lg bxl-github text-white cursor-pointer'/></a>
-                <i className='bx bx-lg bxl-discord-alt text-white cursor-pointer'/>
             </div>
         </div>
     </section>

@@ -1,4 +1,5 @@
-import image from "../../images/Photo.jpg"
+
+import NITK from "../../images/NITK.png"
 function About() {
     return (
     <section id="about" className="w-full h-[75%] bg-[#080808] flex-col items-centre justify-end">
@@ -6,9 +7,9 @@ function About() {
             <h1 className="text-4xl text-white font-bold">About <span className="text-[#00ffff]">Me</span></h1>
         </div>
         <div className="w-full h-[90%] flex items-center justify-center ">
-            <div className="bg-gray-300 w-[90%] h-[90%] rounded-[30px] flex shadow-[0_0_25px_white]">
+            <div className="bg-gray-200 w-[80%] h-[90%] rounded-[30px] flex shadow-[0_0_25px_white]">
                 <div className="w-[25%] h-full flex items-center justify-center">
-                    <img src={image} alt="" className="w-36 h-36"/>
+                    <img src={NITK} alt="" className="w-[80%] h-[80%] rounded-lg"/>
                 </div>
                 <div className="h-full w-2 flex justify-center items-center">
                     <div className="h-[98%] w-2 bg-black rounded-xl"/>
